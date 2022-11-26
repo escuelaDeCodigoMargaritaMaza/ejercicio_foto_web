@@ -45,7 +45,7 @@ nav a:hover{
         left: 0px;
     }
     to {
-        left: 1000px;
+        left: 50%;
     }
   }   
 
