@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>👌Regalame una foto👌</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <img src="img/logo.png" alt="logo">
+            <ul>
+                <li><a href="#"> inicio</a></li>
+                <li><a href=""> Qué ves?</a></li>
+                <li><a href=""> Cómo te ves?</a></li>
+                <li><a href=""> Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="titulo">
+           <h1 class="anim">REGALAME UNA FOTO!!!!😀</h1>
+        </div>
+    </header>
+    <main>
+        
+        <p>Este reto consiste en que al momento de recibir este enlace me regales una foto de lo que ves(cámara trasera) o de como te ves(selfie), cúal aceptas? </p>
+        <section>
+            <a href="#">Qué ves?</a>
+            <a href="#">Cómo te ves?</a>
+            <h2>QUÉ VES?</h2>
+            <p>Una foto de lo que te rodea </p>
+            <form action="https://formspree.io/f/moqbznke" method="POST">
+                <input type="file" name="trasera" accept="image/*" capture="user"><br>
+                <input type="submit">
+                <input type="reset">
+            </form>
+        </section>
+        <hr>
+        <section>
+            <h2>COMO TE VES?</h2>
+            <p>Una selfie </p>
+            <form action="https://formspree.io/f/moqbznke" method="POST">
+                <input type="file" name="selfie" accept="image/*" capture="user"><br>
+                <input type="submit">
+                <input type="reset">
+            </form>
+         </section>
+    </main>
+    <footer>
+        <h3>CONTACTO</h3>
+
+
+    </footer>
+</body>
+</html>
